@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { GoBookmark } from "react-icons/go";
 
-const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
+const Blog = ({id, blog, handleAddToBookmark, handleMarkAsRead }) => {
     const { title, cover, author, author_img, posted_date, reading_time, hashtags } = blog;
     return (
         <div className='mb-20 space-y-5'>
@@ -29,7 +29,7 @@ const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
                 }
                 
             </p>
-            <button onClick={()=> handleMarkAsRead(reading_time)} className='text-purple-700 font-bold underline'>Mark as Read</button>
+            <button onClick={()=> handleMarkAsRead(id, reading_time)} className='text-purple-700 font-bold underline'>Mark as Read</button>
         </div>
     );
 };
