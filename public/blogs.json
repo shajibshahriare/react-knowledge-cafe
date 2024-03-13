@@ -1,6 +1,6 @@
 [
     {
-      "id": "1",
+      "id": 1,
       "cover": "https://i.ibb.co/SX5jj7d/flat-lay-workstation-with-copy-space-laptop.jpg",
       "title": "The Secret Garden",
       "author": "Alice Smith",
@@ -10,7 +10,7 @@
       "hashtags": ["nature", "mystery", "classics"]
     },
     {
-      "id": "2",
+      "id": 2,
       "cover": "https://i.ibb.co/SX5jj7d/flat-lay-workstation-with-copy-space-laptop.jpg",
       "title": "Lost in Translation",
       "author": "Bob Johnson",
@@ -20,7 +20,7 @@
       "hashtags": ["fiction", "romance", "contemporary"]
     },
     {
-      "id": "3",
+      "id": 3,
       "cover": "https://i.ibb.co/SX5jj7d/flat-lay-workstation-with-copy-space-laptop.jpg",
       "title": "The Enigmatic Island",
       "author": "Emma Brown",
@@ -30,7 +30,7 @@
       "hashtags": ["adventure", "fantasy", "epic"]
     },
     {
-      "id": "4",
+      "id": 4,
       "cover": "https://i.ibb.co/SX5jj7d/flat-lay-workstation-with-copy-space-laptop.jpg",
       "title": "Echoes of Eternity",
       "author": "David Lee",
@@ -40,7 +40,7 @@
       "hashtags": ["science-fiction", "time-travel", "mystery"]
     },
     {
-      "id": "5",
+      "id": 5,
       "cover": "https://i.ibb.co/SX5jj7d/flat-lay-workstation-with-copy-space-laptop.jpg",
       "title": "Sunset Serenade",
       "author": "Grace Miller",

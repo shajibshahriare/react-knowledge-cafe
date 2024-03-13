@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { GoBookmark } from "react-icons/go";
 
-const Blog = ({id, blog, handleAddToBookmark, handleMarkAsRead }) => {
-    const { title, cover, author, author_img, posted_date, reading_time, hashtags } = blog;
+const Blog = ({ blog, handleAddToBookmark, handleMarkAsRead }) => {
+    const {id, title, cover, author, author_img, posted_date, reading_time, hashtags } = blog;
     return (
         <div className='mb-20 space-y-5'>
             <img className='w-full rounded-2xl mb-8' src={cover} alt={`cover pic of the title ${title}`} />
